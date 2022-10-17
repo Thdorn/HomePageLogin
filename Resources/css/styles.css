@@ -22,3 +22,37 @@
     color: #eaebed;
     padding-left: 10px;
 }
+
+#About {
+    background-image: url("file:///C:/Users/19032/Documents/GroupProject/WorkoutLog/Resources/images/whitebackground.png");
+    background-size: cover;
+    background-color: #ececec;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    right: 0px;
+    height: 500px;
+}
+
+
+.About-content{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    display: block;
+
+}
+.About-content h1{
+    font-family: "Figtree";
+    font-weight: bold;
+    color: #2d2e3b;
+}
+
+.About-content p{
+    font-family: "Figtree";
+    color: #2d2e3b;
+}
+
+.About-img img{
+    width: 30%;
+}
