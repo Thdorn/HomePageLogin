@@ -32,7 +32,7 @@
     background-color: #ececec;
     position: absolute;
     width: 100%;
-    top: 70px;
+    top: 60px;
     right: 0px;
     height: 500px;
 }
@@ -68,6 +68,15 @@
     color: #0064cb;
     position: absolute;
     top: 570px;
+    height: 20px;
+    width: 100%;
+    right: 0px;
+}
+#blue-bar-LW{
+    background-color: #0064cb;
+    color: #0064cb;
+    position: absolute;
+    top: 190px;
     height: 20px;
     width: 100%;
     right: 0px;
@@ -111,6 +120,44 @@
     text-decoration: none;
 }
 
+/* Log workout section */
+#Log-Workout{
+background-color: #2d2e3b;
+    position: absolute;
+    width: 100%;
+    top: 210px;
+    right: 0px;
+    height: 1000px;
+    letter-spacing: 2px;
+}
+.Log-Workout-content{
+    font-family: "Figtree";
+    position: relative;
+    text-align: center;
+    top: 0px;
+}
+
+.Log-Workout-content h2{
+    color:#9bccff;
+    margin-left: 0px;
+}
+
+.Log-Workout-content form{
+    color: #ffffff;
+}
+
+.Log-Workout-content p{
+    color: #ffffff;
+    margin-left: 0px;
+}
+
+.Log-Workout-content a{
+    color: #9bccff;
+    text-decoration: none;
+}
+
+
+
 /* standard style for all inputs */
 
 input{
@@ -121,15 +168,15 @@ input{
     border-radius: 25px;
     border: none;
     height: 25px;
-    width: 250px;
+    width: 200px;
 }
 
 /* sign in button */
 button{
     font-family: "Figtree";
     font-weight: bold;
-    width: 150px;
-    height: 25px;
+    width: 180px;
+    height: 35px;
     margin-left: 80px;
     border-radius: 25px;
     background-color: #5bacff;
